@@ -1,0 +1,31 @@
+:root{
+  --color-dark: #191a23;
+  --color-dark-alt: #9c9eb4;
+  --color-light: #ffffff;
+  --color-accent: #b9ff66;
+  --color-grey: #f3f3f3;
+  --color-hover: #91e99b;
+  --color-active: #26f13e;
+
+  --border: 1px solid var(--color-dark);
+  --border-radius: 14px;
+
+  --category-news-url: url('/src/image/news.png') ; 
+  --category-planet-url: url('/src/image/planet.png');
+  --category-sport-url: url('/src/image/sport.png');
+  --category-study-url: url('/src/image/study.png');
+
+
+  
+  --shadow: 0 5px 0 0 var(var(--color-dark-alt));
+
+  --font-family-base: 'Space Grotesk', sans-serif;
+
+  --container-width: 1240px;
+  --container-padding-x: 20px;
+  
+  --input-height: 60px;
+
+  --transition-duration: 0.2s;
+}
+

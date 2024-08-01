@@ -1,0 +1,15 @@
+.list-title{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  &--image{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+  }
+}

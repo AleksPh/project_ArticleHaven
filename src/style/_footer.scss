@@ -1,0 +1,21 @@
+.footer{
+  &__container{
+    background-color: var(--color-hover);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+  }
+  &__item{
+    &:hover{
+      transform: scale(1.05);
+      transition: all 0.3s ;
+    }
+    &:active{
+      transform: scale(0.95);
+      transition: all 0.3s ;
+    }
+  }
+}
+

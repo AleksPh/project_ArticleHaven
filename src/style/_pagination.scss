@@ -1,0 +1,42 @@
+.pagination{
+  padding: 10px;
+  margin: 30px auto 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  &__image{
+    width: 30px;
+    aspect-ratio: 1;
+    background-size: cover;
+    &-previous{
+      transform: rotate(180deg);
+    }
+  }
+  &__button{
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--color-dark-alt);
+    font-weight: 500;
+    font-size: 1.2rem;
+    &:hover{
+      background-color: var(--color-hover);
+      transition-duration: 0.2s;
+      transform: scale(1.05);
+    }
+    &:active{
+      background-color: var(--color-active);
+      transform: scale(0.95);
+      transition-duration: 0.2s;
+    }
+  }
+}.hidden {
+  display: none;
+}
+
+.active-flex{
+  display: flex;
+}
