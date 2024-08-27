@@ -847,7 +847,7 @@
           user-select: none;
   position: fixed;
   top: 50%;
-  right: 2%;
+  right: 1%;
   transform: translateY(-50%);
   background-color: var(--color-accent);
   border: 3px solid var(--color-dark-alt);
