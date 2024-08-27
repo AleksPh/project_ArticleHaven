@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/project_ArticleHaven/static/css/main.4a285d53.css",
+    "main.js": "/project_ArticleHaven/static/js/main.c66aa182.js",
+    "static/media/test4.mp4": "/project_ArticleHaven/static/media/test4.33a55d4226178a5219bf.mp4",
+    "static/media/post-image-3.jpg": "/project_ArticleHaven/static/media/post-image-3.dc14f39759eb1581dacd.jpg",
+    "static/media/post-image-4.jpg": "/project_ArticleHaven/static/media/post-image-4.8529b279059343942e98.jpg",
+    "static/media/post-image-1.jpg": "/project_ArticleHaven/static/media/post-image-1.26a6ae50f5cc59ef8967.jpg",
+    "static/media/altImg.png": "/project_ArticleHaven/static/media/altImg.7f74b39a593262e26982.png",
+    "static/media/sport.png": "/project_ArticleHaven/static/media/sport.ecedc4deb9e175593513.png",
+    "static/media/news.png": "/project_ArticleHaven/static/media/news.c47c1a28f40dd11bb9bb.png",
+    "static/media/dislike.png": "/project_ArticleHaven/static/media/dislike.5da49f3dbc3b2e60d64e.png",
+    "static/media/study.png": "/project_ArticleHaven/static/media/study.af7d62fe4f3b98296793.png",
+    "static/media/arrow-btn-2.png": "/project_ArticleHaven/static/media/arrow-btn-2.813b36fac7c491094692.png",
+    "static/media/SpaceGrotesk-Regular.woff2": "/project_ArticleHaven/static/media/SpaceGrotesk-Regular.fecc50c428dd21a631d6.woff2",
+    "static/media/SpaceGrotesk-Medium.woff2": "/project_ArticleHaven/static/media/SpaceGrotesk-Medium.48f792d5d279fe843927.woff2",
+    "static/media/inst.png": "/project_ArticleHaven/static/media/inst.2d5cedd576ca1a740d7c.png",
+    "static/media/arrow.png": "/project_ArticleHaven/static/media/arrow.dc9f2f669005e2359073.png",
+    "static/media/planet.png": "/project_ArticleHaven/static/media/planet.8039e22d66351e40041e.png",
+    "static/media/plus.png": "/project_ArticleHaven/static/media/plus.bcc7aa6620614eaae361.png",
+    "static/media/empty.png": "/project_ArticleHaven/static/media/empty.29aaad27dedd543b6e2b.png",
+    "static/media/post-image-2.jpg": "/project_ArticleHaven/static/media/post-image-2.3d4797f063b87ecaa30d.jpg",
+    "static/media/search.png": "/project_ArticleHaven/static/media/search.1cb44692005fa9af9196.png",
+    "static/media/help.png": "/project_ArticleHaven/static/media/help.5eae2744aa8f940cf05c.png",
+    "static/media/title.png": "/project_ArticleHaven/static/media/title.eded79caa6b14d72de65.png",
+    "static/media/like.png": "/project_ArticleHaven/static/media/like.39cf00cc8237a29b2e3d.png",
+    "static/media/book.png": "/project_ArticleHaven/static/media/book.f036e5d2039f857064d5.png",
+    "static/media/pen.png": "/project_ArticleHaven/static/media/pen.1cc4ab117a386c8143f5.png",
+    "static/media/tg.png": "/project_ArticleHaven/static/media/tg.e9722f26cc228e817986.png",
+    "static/media/add.png": "/project_ArticleHaven/static/media/add.cc2f8d72a3f47171d91d.png",
+    "static/media/book-logo.png": "/project_ArticleHaven/static/media/book-logo.1f58fd8df91eae8fc478.png",
+    "static/media/date.png": "/project_ArticleHaven/static/media/date.5d4a3e84b956ab9a54b9.png",
+    "static/media/linkedIn.png": "/project_ArticleHaven/static/media/linkedIn.4a6c4faefd2af0f8935b.png",
+    "static/media/git.png": "/project_ArticleHaven/static/media/git.f11021803f68852df283.png",
+    "index.html": "/project_ArticleHaven/index.html",
+    "main.4a285d53.css.map": "/project_ArticleHaven/static/css/main.4a285d53.css.map",
+    "main.c66aa182.js.map": "/project_ArticleHaven/static/js/main.c66aa182.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a285d53.css",
+    "static/js/main.c66aa182.js"
+  ]
+}
