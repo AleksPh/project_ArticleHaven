@@ -9,7 +9,6 @@ const EmptyBlock = ()=>{
         <h2>No posts found</h2>
         <p>Please refresh the page and try again</p>
       </div>
-
     </div>
   )
 }

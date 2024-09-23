@@ -1,5 +1,4 @@
 import React from "react";
-
 import logoImage from '../image/book-logo.png'
 import PenImage from '../image/pen.png'
 import FavImage from '../image/dislike.png'
@@ -18,14 +17,12 @@ const Header = ({ onShowOnlyLiked, showNewPosts, showCreatedPosts}) => {
                 <img src={ArticleImg} alt="CreatedPostImage" className="header__item--image" />
               </div>
             </button>
-
             <button className="header__button" onClick={onShowOnlyLiked} >
               <div className="header__item">
                 <div className="header__item--text">Favourite</div>
                 <img src={FavImage} alt="FavouritePostImage" className="header__item--image" />
               </div>
             </button>
-
             <button className="header__button" onClick={showCreatedPosts} >
               <div className="header__item">
                 <div className="header__item--text">Created</div>

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import LikeImg from "../image/like.png";
 import DislikeImg from "../image/dislike.png";
 import EditImage from "../image/pen.png";
@@ -11,7 +10,6 @@ import EditForm from "./editForm";
 
 const PostItem = ({ post, onLikeToggle, isLiked, remove, onEdit, onSave}) => {
   const { category } = post;
-
   let categoryClass;
   switch (category) {
     case 'Planets in Space':
@@ -34,14 +32,11 @@ const PostItem = ({ post, onLikeToggle, isLiked, remove, onEdit, onSave}) => {
   const [title, setTitle] = useState(post.title)
   const [body, setBody] = useState(post.body)
   const [imgSrc, setImgSrc] = useState(post.imageSrc);
-
-
   const [isMenuVisible, setIsMenuVisible] = useState(false);
   const [isPostBlured, setIsPostBlured] = useState(false);
   const [isDisplayVisible, setIsDisplayVisible] = useState(false);
   const [isDisplayVisibleHelp, setIsDisplayVisibleHelp] = useState(false);
   const [IsEditFormActive, setIsEditFormActive] = useState(false)
-
   const handleSubmit = (e) => {
     e.preventDefault();
     
@@ -56,23 +51,18 @@ const PostItem = ({ post, onLikeToggle, isLiked, remove, onEdit, onSave}) => {
     onSave(updatedPost);
     closeEditForm()
   };
-
-
   const closeEditForm = ()=>{
     setIsMenuVisible(false)
     setIsEditFormActive(false)
   }
-
   const handleError = () => {
     setImgSrc(altImage);
   };
-
   const toggleMenu = () => {
     setIsMenuVisible(!isMenuVisible);
     setIsPostBlured(!isPostBlured);
     setIsDisplayVisible(false);
   };
-
   const toggleLike = () => {
     if (typeof onLikeToggle === 'function') {
       onLikeToggle(post);
@@ -85,7 +75,6 @@ const PostItem = ({ post, onLikeToggle, isLiked, remove, onEdit, onSave}) => {
   const HideDisplay = () => {
     setIsDisplayVisible(false);
   };
-
   const ShowDisplay = () => {
     setIsDisplayVisible(true);
     setIsDisplayVisibleHelp(false);
@@ -94,7 +83,6 @@ const PostItem = ({ post, onLikeToggle, isLiked, remove, onEdit, onSave}) => {
   const HideDisplayHelp = () => {
     setIsDisplayVisibleHelp(false);
   };
-
   const ShowDisplayHelp = () => {
     setIsDisplayVisibleHelp(true);
     setIsDisplayVisible(false);

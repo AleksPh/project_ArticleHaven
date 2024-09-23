@@ -1,5 +1,4 @@
 import React from "react";
-
 import PlayMarketImage from '../image/footer-1.png'
 import AppStoreImage from '../image/footer-2.png'
 

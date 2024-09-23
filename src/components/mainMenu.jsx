@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from "react";
-
 import AddImage from '../image/add.png';
 import FilterImage from '../image/filter.png';
 import SearchImage from '../image/search.png'
@@ -7,9 +6,7 @@ import PlusImage from '../image/plus.png'
 import EditImage from '../image/pen.png'
 import DateImage from '../image/date.png'
 import TitleImage from '../image/title.png'
-
 import { AddPost } from "../App";
-
 
 const MainMenu = ({ posts, setPosts, setSelectedCategory, selectedCategory, setFilteredPost, isMenuActive}) =>{
   const [isHidden, setIsHidden] = useState(false);
@@ -89,13 +86,11 @@ const MainMenu = ({ posts, setPosts, setSelectedCategory, selectedCategory, setF
                  />
         </div>
       </div>
-
       <div className="main__menu--item">
         <button className='main__menu--button' onClick={PopUpActive}>
           <img className="main__menu--image" src={FilterImage} alt="FilterButtonImage" />
           <div className="main__menu--text">Filter</div>
         </button>
-
         <div className={`main__popup main__popup-filter ${isActive ? '' : 'active'}`}>
           <div className="main__popup-filter--content">
             <div className="main__popup_block">
@@ -108,47 +103,38 @@ const MainMenu = ({ posts, setPosts, setSelectedCategory, selectedCategory, setF
                 <option value="Study and learn">Study and learn</option>
                 <option value="Sport and hobby">Sport and hobby</option>
               </select>
-
             </div>
             <div className="main_popup_block">
               <div className="main__popup-text"><img className="main__popup-text--img" src={DateImage} alt='DateImage' />Choose create date</div>
               <input type="date"/>
            </div>
-
            <div className="main__popup--buttons">
               <button className="main__popup--button main__popup--button-cancel" onClick={PopUpClosed}>Cancel</button>
               <button className="main__popup--button main__popup--button-save" onClick={handleSave}>Save</button>
            </div>
-
           </div>
         </div>
       </div>
-
       <div className="main__menu--item">
         <button className="main__menu--button" onClick={OpenMenu}>
           <img className="main__menu--image" src={AddImage} alt="AddButtonImage" />
           <div className="main__menu--text">Add Post</div>
         </button>
       </div>
-
       <div className={`main__popup main__popup-create ${isHidden ? '' : 'hidden'}`}>
         <div className="main__popup--title"><img src={EditImage} alt="EditImage" />Creating New Post</div>
         <div className="main__popup--line"></div>
         <div className="main__popup--content">
-        {error && <div className="error-message">{error}</div>}
-          
+        {error && <div className="error-message">{error}</div>} 
           <div className="main__popup--text "> <img src={PlusImage} alt="AddImage" /><p>Enter Title for your Post</p></div>
-
           <input type="text" 
                  value={title} 
                  className="main__popup--input main__popup--input--title" 
                  placeholder="Enter title"
                  onChange={ev => setTitle(ev.target.value)}
                  />
-
           <div className="main__popup--line"></div>
           <div className="main__popup--text "><img src={PlusImage} alt="AddImage" /> <p>Enter main information for your Post</p></div>
-
           <textarea className="main__popup--input main__popup--input--text" 
                     name="message" 
                     rows="10" 
@@ -157,17 +143,14 @@ const MainMenu = ({ posts, setPosts, setSelectedCategory, selectedCategory, setF
                     value={body} 
                     onChange={ev => setBody(ev.target.value)}
                     ></textarea>
-
           <div className="main__popup--line"></div>
           <div className="main__popup--text "><img src={PlusImage} alt="AddImage" /> <p>Enter link for Image for your Post</p></div>
-
           <input type="text" 
                  value={image} 
                  className="main__popup--input main__popup--input--image" 
                  placeholder="Enter image link"
                  onChange={ev => setImage(ev.target.value)}
                  />
-
           <div className="main__popup--line"></div>
           <div className="main__popup--text"><img src={PlusImage} alt="AddImage" /> <p>Сhoose the most suitable category for your Post</p> </div>
           <select className="main__popup--input main__popup--list" value={category} onChange={ev => setCategory(ev.target.value)}>
@@ -175,16 +158,11 @@ const MainMenu = ({ posts, setPosts, setSelectedCategory, selectedCategory, setF
               <option value="Planets in Space">Planets in Space</option>
               <option value="Study and learn">Study and learn</option>
               <option value="Sport and hobby">Sport and hobby</option>
-
           </select>
           <button className="main__popup--addpost" onClick={handleAddPost}>Add Post</button>
           <button className="main__popup--close" onClick={CloseMenu}></button>
-
-
         </div>
-
       </div>
-
     </div>
   )
 }

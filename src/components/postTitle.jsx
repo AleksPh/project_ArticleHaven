@@ -1,5 +1,4 @@
 import React from "react";
-
 import BookImg from "../image/book.png"
 import FavImg from "../image/dislike.png"
 import artImg from "../image/pen.png"
