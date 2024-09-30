@@ -118,11 +118,11 @@
       left: 0;
       width: 40px; /* Установите нужные размеры */
       height: 40px; /* Установите нужные размеры */
-      // background: var(--category-planet-url) no-repeat center center;
+      background: var(--category-planet-url) no-repeat center center;
       background-size: cover;
     }
     &--planet::after{
-      background-image: var(--category-planet-url);
+      background-image: url('/src/image/planet.png');
     }
     &--sport::after{
       background-image: var(--category-sport-url);
